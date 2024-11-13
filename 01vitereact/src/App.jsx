@@ -1,7 +1,11 @@
-
+// Adding new component Rohit
+import Rohit from "./rohit"
 function App() {
   return (
-    <h1>Rohit | react Started..........</h1>
+    <>
+      <Rohit/> 
+      <h1>Rohit | react Started..........</h1>
+    </>
   )
 }
 export default App
