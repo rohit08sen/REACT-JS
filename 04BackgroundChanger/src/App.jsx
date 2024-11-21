@@ -1,4 +1,5 @@
 import {useState} from "react" 
+import './App.css'
 
 function App() {
   const [color,setColor]=useState("grey")
@@ -7,7 +8,7 @@ function App() {
       <div className="w-full h-screen duration-150"
       style={{backgroundColor:color}}>
          <div className="fixed flex flex-wrap justify-center bottom-12 inset-x-0 px-2">
-          <div className="btn flex flex-wrap justify-center gap-3 shadow-lg bg-white px-4 py-4 rounded-3xl">
+          <div className="btn flex flex-wrap justify-center gap-3 shadow-lg  px-4 py-4 rounded-3xl ">
 
             <button 
             onClick={()=>setColor("red")}
